@@ -1,5 +1,5 @@
 import './App.css'
-import { Feed } from './Components/feed'
+import { Feed } from './Components/Feed'
 import { MyProvider } from './Components/MyContext'
 import { Nav } from './Components/Nav'
 import { NavPc } from './Components/NavPc'
