@@ -19,7 +19,7 @@ export const Feed = () => {
     return (
         <div className='lg:flex lg:justify-center lg:w-full lg:gap-20'>
             {
-                window.screen.width > 375 ?
+                window.screen.width > 499 ?
                     <SliderPc />
                     :
                     <Slider />
