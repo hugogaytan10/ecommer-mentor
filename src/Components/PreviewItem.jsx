@@ -31,7 +31,7 @@ export const PreviewItem = (props) => {
     }
 
     return (
-        <div className='absolute top-52 left-0 -translate-x-1/4 -translate-y-1/2 z-30 min-h-screen min-w-screen-vh bg-overlay'>
+        <div className='absolute top-60 left-0 -translate-x-1/4 -translate-y-1/2 z-30 min-h-screen min-w-screen-vh bg-overlay'>
             <div className='w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                 <img src={close} alt='x' className='float-right mb-5 hover:cursor-pointer' onClick={()=>{props.setOpen(false);}}/>
                 <img src={selectImg} alt='nd' onClick={() => { setOpen(true); }} className='h-1/3'>

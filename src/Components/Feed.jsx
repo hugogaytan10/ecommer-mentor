@@ -39,7 +39,7 @@ export const Feed = () => {
                 </div>
                 <div className='lg:flex lg:gap-10 lg:mt-5'>
                     <div className='flex justify-between p-2 bg-gray-100 rounded-lg mt-2 mb-2 lg:w-1/4 lg:mb-0 lg:mt-0 lg:h-12'>
-                        <button className='text-primaryOrange font-extrabold text-lg' onClick={() => { setCount(count - 1); }}>-</button>
+                        <button className='text-primaryOrange font-extrabold text-lg' onClick={() => { if(count > 0) setCount(count - 1); }}>-</button>
                         <p className='self-center'>{count}</p>
                         <button className='text-primaryOrange font-extrabold text-lg' onClick={() => { setCount(count + 1) }}>+</button>
                     </div>

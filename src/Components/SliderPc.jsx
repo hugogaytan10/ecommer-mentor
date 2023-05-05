@@ -23,7 +23,7 @@ export const SliderPc = () => {
                 {
                     thum.map((photo, idx) => {
                         return (
-                            <img src={photo} alt="tbm" key={idx} className="w-2/12 rounded-lg mt-2 hover:cursor-pointer hover:opacity-50" 
+                            <img src={photo} alt="tbm" key={idx} className="w-2/12 rounded-lg mt-2 hover:cursor-pointer hover:opacity-50 hover:border-4 hover:border-primaryOrange" 
                             onMouseOver={()=>{setSelectImg(images[idx]);}}
                             onMouseOut={()=>{setSelectImg(images[0]);}}
                             />
